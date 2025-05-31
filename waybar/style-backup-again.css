@@ -1,0 +1,147 @@
+@import "mocha.css";
+
+* {
+  /* font-family: FantasqueSansMono Nerd Font; */
+  font-family:DroidSansMNerdFont, awesomefont, Roboto;
+  font-size: 11px;
+  min-height: 0px;
+  border-radius: 50px 50px;
+  /* margin: 10px 0 0 0; */
+}
+
+#waybar {
+  background: @base;
+  color: @text;
+  margin: 5px 5px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  background-color: @surface0;
+  /* margin-left: 1rem; */
+  /* color: @sky; */
+  font-size: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @peach;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @pink;
+  background-color: @surface1;
+  border-radius: 1rem;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power,
+#custom-exit,
+#network,
+#window{
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 4px;
+  border-radius: 1rem;
+  /* margin-right: 10px; */
+}
+#custom-playerpause,
+#custom-playernext,
+#custom-playerprevious{
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 4px;
+  border-radius: 1rem;
+  color: @sapphire;
+}
+
+#network {
+  color: @yellow;
+  border-radius: 1rem;
+  /* margin-right: 1rem; */
+}
+
+#clock {
+  color: @rosewater;
+  /* border-radius: 0px 1rem 1rem 0px; */
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+#custom-exit{
+  color: @flamingo;
+  margin-left:10px;
+}
+
+#battery {
+  /* border-radius: 1rem; */
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+/* #backlight, #battery {
+    border-radius: 0;
+} */
+
+#pulseaudio {
+  color: @maroon;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: @mauve;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    color: @lavender;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: @red;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#window{
+  color:@sky;
+}
+
+/* #custom-appmenu{
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 4px;
+  border-radius: 1rem;
+  font-size:1rem;
+} */
