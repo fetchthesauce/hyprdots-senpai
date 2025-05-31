@@ -67,7 +67,7 @@
         {
             "type": "gpu",
             "key": " ",
-            "format": "{} {2}",
+            "format": "{} {6}",
             "keyColor": "blue"
         },
         // {
