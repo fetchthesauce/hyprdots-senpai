@@ -67,7 +67,7 @@
         {
             "type": "gpu",
             "key": " ",
-            "format": "{} {2}",
+            "format": "{} {6}",
             "keyColor": "blue"
         },
         // {
@@ -78,7 +78,7 @@
 
         {
             "type": "wm",
-            "format": "{} {4}",
+            "format": "{}",
             "key": " ",
             "keyColor": "green"
         },
@@ -97,4 +97,5 @@
             "symbol": "circle"
         }
     ]
+}
 }
